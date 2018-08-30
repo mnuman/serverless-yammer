@@ -1,1 +1,14 @@
 .application.json
+ ../.c9/
+.debug/
+bin/
+certifi-2018.8.24.dist-info/
+certifi/
+chardet-3.0.4.dist-info/
+chardet/
+idna-2.7.dist-info/
+idna/
+requests-2.19.1.dist-info/
+requests/
+urllib3-1.23.dist-info/
+urllib3/
