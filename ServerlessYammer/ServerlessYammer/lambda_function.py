@@ -9,7 +9,7 @@ def lambda_handler(event, context):
     payload = { "data" : myMessage, "group_id" : 15767042} 
     r = requests.post("https://www.yammer.com/api/v1/messages.json", headers=auth, data=payload)
 
-    print("Status code Yammer call:" + r.status_code)
+    print("Status code Yammer call:" + str(r.status_code))
     
     return {
         "isBase64Encoded" : "false",
